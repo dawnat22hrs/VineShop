@@ -1,0 +1,272 @@
+body{
+    margin: 0;
+    /*font-family: */
+    max-width: 1920px;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+
+/* шрифты: font-family: 'Montserrat', sans-serif;
+font-family: 'Playfair Display', serif;*/
+
+.header{
+    position: relative;
+    width: 100%;
+    height: 900px;
+    background-image: url("img/background-header.png");
+}
+
+.header__container{
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+.contact__menu{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0 20px 0;
+}
+
+.address{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+
+.telephone{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 150%;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.navigator{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;
+    border-collapse: collapse;
+}
+
+.table__navigator{
+    width: 1110px;
+    margin: 0 auto;
+}
+
+.navigator__link{
+    color: #CAD4D6;
+    border-bottom: 1px solid #fff;
+    border-top: 1px solid #fff;
+    border-right:1px solid #fff;
+    padding: 13px 0 13px 0;
+    cursor: pointer;
+}
+
+.navigator__link:last-child {
+    border-right: none;
+}
+  
+.button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 30px;
+    gap: 10px;
+    background: #99862A;
+    border: 0;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.buttons{
+    max-width: 415px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 583px;
+}
+
+.description{
+    background-color: #282828;
+    height: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.description-block{
+    width: 1110px;
+    height: 656px;
+    border: 3px solid #FFF;
+}
+
+.description-block__container{
+    width: 736px;
+    margin: 0 auto;
+}
+
+.title{
+    font-family: 'Playfair Display';
+    font-size: 36px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+.description__title{
+    padding: 60px 0 40px 0;
+}
+
+.line{
+    width: 150px;
+    border-bottom: 1px solid #FFF;
+}
+
+.description__line{
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.subtitle{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.description__img{
+    width: 160px;
+    height: 160px;
+    padding: 50px 0 0 288px;
+}
+
+.collection{
+    background-color: #E6E3C4;
+    height: 1038px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.collection-block{
+    border-top: 1px solid #998431;
+    border-bottom: 1px solid #998431;
+    width: 1110px;
+    height: 878px;
+    margin: 0 auto;
+    /*display: flex;
+    align-items: center;
+    justify-content: center;*/
+}
+
+.collection-block-inside{
+    padding-top: 60px;
+    height: 758px;
+    
+}
+
+.collection-blok__text{
+    max-width: 445px;
+    
+}
+
+.collection-block__img{
+    max-width: 540px;
+}
+
+.pretitle{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #000000;
+}
+
+.collection__title{
+    padding: 30px 0;
+    text-align: start;
+}
+
+.collection__title_color{
+    color: #000000;
+}
+
+.collection__line{
+    margin-bottom: 30px;
+}
+
+.collection__line_color{
+    border-color: #000000;
+}
+
+.collection__subtitle{
+    text-align: start;
+}
+
+.collection__subtitle_size-color{
+    font-size: 14px;
+    color: #000000;
+}
+
+.species{
+    color: #000;
+    border-collapse: collapse;
+    width: 445px;
+    text-align: center;
+}
+
+.species-year{
+    border-right: 1px solid #000;
+    padding: 31px 24px 26px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #282828;
+}
+
+.species-year:last-child{
+    border-right: none;
+}
+
+.species-cell{
+    color: #000;
+    border-bottom: 1px solid #000;
+}
+
+.species-cell:last-child{
+    border-bottom: none;
+}
